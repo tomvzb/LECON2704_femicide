@@ -170,7 +170,7 @@ If the estimator is obtained from the saturated OLS regression above, one can te
 For the double-difference estimator, a natural plug-in variance estimator is:
 
 $$
-\widehat{\mathrm{Var}}(\hat{\delta})
+\mathrm{Var}(\hat{\delta})
 = \frac{s_{11}^2}{n_{11}} + \frac{s_{01}^2}{n_{01}} + \frac{s_{10}^2}{n_{10}} + \frac{s_{00}^2}{n_{00}},
 $$
 
