@@ -1,0 +1,15 @@
+First, we conducted a power calculation for the moral responsibility outcome based on a fixed sample size of 5,000 individuals. 
+
+Accounting for an 80% response rate, the effective sample was assumed to be 4,000 individuals, equally distributed across the four treatment groups (1,000 per group). 
+
+To assess the statistical power of the moral responsibility hypothesis test with this sample, we employed the Stata command `twomeans`. 
+
+To correct for multiple hypothesis testing, a Bonferroni adjustment was applied, yielding an adjusted significance level of 0.0125 (0.05/4). 
+
+Drawing on prior research on the effects of passive voice in the context of police killings in the United States, we assumed an effect size of 0.1 and a standard deviation of 0.45. 
+
+Under these assumptions, the Stata command `power twomeans` yielded an estimated power of 0.8439.
+
+---
+
+Similarly, under these assumptions, and given a conventional power threshold of 0.8 and the adjusted alpha, the required sample size is 908 observations (454 per group).
